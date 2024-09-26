@@ -3,8 +3,9 @@
   "compilerOptions": {
     "module": "es2020" /* Specify what module code is generated. */,
     "outDir": "./dist/esm",
-    "declaration": true,
-    "declarationMap": true,
-    "declarationDir": "./dist/esm"
+    "declarationDir": "./dist/esm",
+    "declaration": true, //api-extractor need it - https://api-extractor.com/pages/setup/invoking/
+    "declarationMap": true, //api-extractor need it - https://api-extractor.com/pages/setup/invoking/
+    "sourceMap": true //api-extractor need it - https://api-extractor.com/pages/setup/invoking/
   }
 }

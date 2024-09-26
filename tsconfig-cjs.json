@@ -3,6 +3,7 @@
   "compilerOptions": {
     "module": "CommonJS" /* Specify what module code is generated. */,
     "outDir": "./dist/cjs",
-    "declaration": false
+    "declaration": false,
+    "declarationMap": false
   }
 }
