@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig-build",
+  "compilerOptions": {
+    "module": "es2020" /* Specify what module code is generated. */,
+    "outDir": "./dist/esm",
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "./dist/esm"
+  }
+}
